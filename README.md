@@ -92,14 +92,5 @@ If you use this dataset or code, please cite our paper:
 
 *Thank you for your interest! This repository aims to support open, reproducible research in oceanography and data-driven fluid dynamics.*
 
-```
 
----
-
-**What to do next:**
-- Replace `<your-username>` with your GitHub username or organization.
-- Upload your `featured.gif` to the repo (same directory as this README.md).
-
-**This version is robust for all markdown/YAML parsers and ready for any professional audience.**
-```
 
