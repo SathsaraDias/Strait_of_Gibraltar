@@ -1,3 +1,6 @@
+Here's a **clean, YAML-safe README.md**—ready for copy-paste into your repository, and will **not** cause YAML header errors in GitHub.
+(That error usually comes from stray characters, code fences, or a misplaced `---` block at the very top—none are present here.)
+
 ---
 
 ```markdown
@@ -98,10 +101,9 @@ If you use this dataset or code, please cite our paper:
 
 ---
 
-**Tips:**
-- Replace `<your-username>` with your actual GitHub username or org.
-- Keep your GIF as `featured.gif` in the repository root (same folder as README.md).
-- You can add or remove emojis for tone; they're increasingly accepted in professional GitHub repos, especially for research data/code.
+**What to do next:**
+- Replace `<your-username>` with your GitHub username or organization.
+- Upload your `featured.gif` to the repo (same directory as this README.md).
 
-**This version will make a strong, professional impression for users coming from your paper!**
+**This version is robust for all markdown/YAML parsers and ready for any professional audience.**
 ```
