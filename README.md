@@ -1,29 +1,51 @@
-Here is a **professional and clear “How to Download .mat Files with Git LFS” section** you can add to your `README.md` for your GitHub repository.
-This will guide users of **any OS** (Windows, macOS, Linux) step by step.
+Absolutely! Since this repository accompanies a professional publication, your `README.md` should **look clean, be visually engaging, and immediately highlight its academic value**. Below is a **polished, attractive version** you can use, including an “At a Glance” section, a “Quick Start for Data Download,” and a space for a GIF if you wish to showcase results visually.
 
 ---
 
 ```markdown
-# Strait_of_Gibraltar
+# Strait of Gibraltar: 3D Ocean Simulation Data
 
-This dataset provides 3D ocean current simulations of the Strait of Gibraltar, including zonal (U), meridional (V), and vertical velocity components (W) at grid coordinates (X,Y, Z), (X: longitude, Y: latitude, Z: depth, in m). The simulation was conducted using the MIT General Circulation Model. The data set consists of 144 hourly snapshots over six days. Modelled ocean features, which include tidal flows, ocean gyres, and internal gravity waves, were analyzed using Dynamic Mode Decomposition (DMD).
+[![Paper DOI](https://img.shields.io/badge/arXiv-2311.01377-blue)](https://arxiv.org/abs/2311.01377)
+<!-- If your paper has a journal DOI or other badge, you can add it here. -->
 
-## How to Download the .mat Data File
+_Accompanies:_  
+**Dias, L. et al., “Analysis of tidal flows through the Strait of Gibraltar using Dynamic Mode Decomposition”  
+[arXiv:2311.01377](https://arxiv.org/abs/2311.01377) (2023)_
 
-**Large files in this repository are tracked using [Git Large File Storage (LFS)](https://git-lfs.com/).**  
-If you see a small pointer file instead of the real `.mat` file, you need to install Git LFS to download the actual data.
+---
 
-### Step 1: Install Git LFS
+## 🌊 At a Glance
+
+- **3D numerical simulation** of ocean currents in the Strait of Gibraltar (MITgcm)
+- Hourly snapshots (144), 6-day time span
+- Fields: Zonal (U), Meridional (V), and Vertical (W) velocities, on a regular grid
+- **Key phenomena:** tidal flows, ocean gyres, internal gravity waves
+- **Data format:** MATLAB `.mat`
+- **Used in:** [Dynamic Mode Decomposition (DMD)](https://en.wikipedia.org/wiki/Dynamic_mode_decomposition) analysis for peer-reviewed publication
+
+---
+
+## 🎬 Simulation Snapshot
+
+<!-- Add a GIF for extra impact (optional): -->
+<!-- ![Example: Gyre and Internal Wave Dynamics](relative/path/to/your_gibraltar_simulation.gif) -->
+<!-- Tip: Keep your GIF under 10 MB for smooth GitHub loading -->
+
+---
+
+## 🚀 Quick Start: Download Data with Git LFS
+
+If you only want the `.mat` data file(s) and are new to Git or Git LFS, **follow these steps**:
+
+### 1. Install Git LFS
 
 - **Windows:**  
-  Download and run the installer from [git-lfs.github.com](https://git-lfs.github.com/).  
-  Then, open a terminal (e.g., Git Bash or Command Prompt) and run:  
+  Download and run the [Git LFS installer](https://git-lfs.github.com/), then open “Git Bash” or “Command Prompt” and run:
 ```
 
 git lfs install
 
 ```
-
 - **macOS:**  
 ```
 
@@ -31,7 +53,6 @@ brew install git-lfs
 git lfs install
 
 ```
-
 - **Linux (Debian/Ubuntu):**  
 ```
 
@@ -39,45 +60,65 @@ sudo apt-get install git-lfs
 git lfs install
 
 ````
+For other distros, see [Git LFS install guide](https://github.com/git-lfs/git-lfs/wiki/Installation).
 
-For other distros, see [Git LFS installation instructions](https://github.com/git-lfs/git-lfs/wiki/Installation).
+### 2. Clone and Download the Full Dataset
 
-### Step 2: Clone the Repository and Download Large Files
-
-In your terminal, run:
 ```bash
-git clone https://github.com/your-username/Strait_of_Gibraltar.git
+git clone https://github.com/<your-username>/Strait_of_Gibraltar.git
 cd Strait_of_Gibraltar
 git lfs pull
 ````
 
-*(Replace the URL above with your actual repository URL if it is different.)*
+*Replace `<your-username>` with your GitHub username if needed.*
 
-This will download the **real** `.mat` file(s) instead of just the pointer files.
+### Already Cloned but See Only a Tiny `.mat` File?
 
----
+Just run:
 
-**If you have already cloned the repository but only see a small text file instead of the actual `.mat` file:**
+```bash
+git lfs pull
+```
 
-1. Install Git LFS (as above).
-2. Inside your repo folder, run:
-
-   ```
-   git lfs pull
-   ```
+from inside your repository folder.
 
 ---
 
-For more help, see the [Git LFS Documentation](https://git-lfs.github.com/).
+## 📖 Reference
 
-If you have any issues or questions, feel free to open an issue on this repository!
+If you use this dataset or code, please cite our paper:
+
+> Dias, L. et al. (2023).
+> *Analysis of tidal flows through the Strait of Gibraltar using Dynamic Mode Decomposition*.
+> [arXiv:2311.01377](https://arxiv.org/abs/2311.01377)
+
+---
+
+## 📬 Questions or Problems?
+
+* Open an [Issue](https://github.com/<your-username>/Strait_of_Gibraltar/issues) on this repository
+* Or email the corresponding author (see the paper)
+
+---
+
+*Thank you for your interest! This repository aims to support open, reproducible research in oceanography and data-driven fluid dynamics.*
 
 ```
 
 ---
 
-- This will make your repository much more user-friendly for people not familiar with Git LFS.
-- Adjust the repo URL as needed.
+**How to use:**
+- Replace `<your-username>` with your GitHub username or organization.
+- If you have a GIF (or a key image), upload it to the repo and update the path in the `![Example: ...](...)` section.
+- You can move the "Simulation Snapshot" above or below as you prefer.
 
-Let me know if you want it shortened, or want a one-liner for “just download the .mat file” for non-GitHub-savvy users!
+---
+
+**This version:**
+- **Looks professional and modern** (use of emojis is common in research repos now—if you want, you can remove them for a more traditional look).
+- **Promotes your paper** with a direct link and a badge.
+- **Makes data access instructions prominent** for all users.
+- **Encourages citation and open science.**
+
+Let me know if you’d like to see an example GIF section or want to add more paper badges!
 ```
