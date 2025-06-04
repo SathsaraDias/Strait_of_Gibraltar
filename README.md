@@ -1,12 +1,11 @@
-Absolutely! Since this repository accompanies a professional publication, your `README.md` should **look clean, be visually engaging, and immediately highlight its academic value**. Below is a **polished, attractive version** you can use, including an “At a Glance” section, a “Quick Start for Data Download,” and a space for a GIF if you wish to showcase results visually.
-
 ---
 
 ```markdown
 # Strait of Gibraltar: 3D Ocean Simulation Data
 
+![Strait of Gibraltar Simulation](featured.gif)
+
 [![Paper DOI](https://img.shields.io/badge/arXiv-2311.01377-blue)](https://arxiv.org/abs/2311.01377)
-<!-- If your paper has a journal DOI or other badge, you can add it here. -->
 
 _Accompanies:_  
 **Dias, L. et al., “Analysis of tidal flows through the Strait of Gibraltar using Dynamic Mode Decomposition”  
@@ -22,14 +21,6 @@ _Accompanies:_
 - **Key phenomena:** tidal flows, ocean gyres, internal gravity waves
 - **Data format:** MATLAB `.mat`
 - **Used in:** [Dynamic Mode Decomposition (DMD)](https://en.wikipedia.org/wiki/Dynamic_mode_decomposition) analysis for peer-reviewed publication
-
----
-
-## 🎬 Simulation Snapshot
-
-<!-- Add a GIF for extra impact (optional): -->
-<!-- ![Example: Gyre and Internal Wave Dynamics](relative/path/to/your_gibraltar_simulation.gif) -->
-<!-- Tip: Keep your GIF under 10 MB for smooth GitHub loading -->
 
 ---
 
@@ -107,18 +98,10 @@ If you use this dataset or code, please cite our paper:
 
 ---
 
-**How to use:**
-- Replace `<your-username>` with your GitHub username or organization.
-- If you have a GIF (or a key image), upload it to the repo and update the path in the `![Example: ...](...)` section.
-- You can move the "Simulation Snapshot" above or below as you prefer.
+**Tips:**
+- Replace `<your-username>` with your actual GitHub username or org.
+- Keep your GIF as `featured.gif` in the repository root (same folder as README.md).
+- You can add or remove emojis for tone; they're increasingly accepted in professional GitHub repos, especially for research data/code.
 
----
-
-**This version:**
-- **Looks professional and modern** (use of emojis is common in research repos now—if you want, you can remove them for a more traditional look).
-- **Promotes your paper** with a direct link and a badge.
-- **Makes data access instructions prominent** for all users.
-- **Encourages citation and open science.**
-
-Let me know if you’d like to see an example GIF section or want to add more paper badges!
+**This version will make a strong, professional impression for users coming from your paper!**
 ```
