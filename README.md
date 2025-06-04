@@ -1,8 +1,3 @@
-Here's a **clean, YAML-safe README.md**—ready for copy-paste into your repository, and will **not** cause YAML header errors in GitHub.
-(That error usually comes from stray characters, code fences, or a misplaced `---` block at the very top—none are present here.)
-
----
-
 ```markdown
 # Strait of Gibraltar: 3D Ocean Simulation Data
 
