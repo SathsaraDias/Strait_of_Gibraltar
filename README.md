@@ -1,4 +1,3 @@
-```markdown
 # Strait of Gibraltar: 3D Ocean Simulation Data
 
 ![Strait of Gibraltar Simulation](featured.gif)
@@ -54,7 +53,7 @@ For other distros, see [Git LFS install guide](https://github.com/git-lfs/git-lf
 ### 2. Clone and Download the Full Dataset
 
 ```bash
-git clone https://github.com/<your-username>/Strait_of_Gibraltar.git
+git clone https://github.com/SathsaraDias/Strait_of_Gibraltar.git
 cd Strait_of_Gibraltar
 git lfs pull
 ````
@@ -92,5 +91,7 @@ If you use this dataset or code, please cite our paper:
 
 *Thank you for your interest! This repository aims to support open, reproducible research in oceanography and data-driven fluid dynamics.*
 
+```
 
+---
 
